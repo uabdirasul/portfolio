@@ -2,9 +2,9 @@
 
 html {
   box-sizing: border-box;
+  font-size: 16px;
   height: 100%;
   scroll-behavior: smooth;
-  font-size: 16px;
 }
 
 *,
@@ -14,29 +14,29 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 0;
-  margin: 0;
   background-color: #000;
   color: $primary-color;
-  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
   font-size: $primary-font-size;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
 }
 
 .container {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 29.5rem;
   padding-left: 0.875rem;
   padding-right: 0.875rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 a {
