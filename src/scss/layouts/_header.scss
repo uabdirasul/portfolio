@@ -1,0 +1,24 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.875rem;
+
+  .header-logo {
+    .header-logo-img {
+      display: block;
+      width: 11rem;
+    }
+  }
+
+  .cta-button {
+    background-color: #2f80ed;
+    color: $text-light;
+    font-size: 0.625rem;
+    font-weight: 600;
+    line-height: 0.938rem;
+  }
+}
