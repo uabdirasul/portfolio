@@ -9,7 +9,7 @@ import "../scss/components/_developer-profile.scss";
 const DeveloperProfile = () => {
   return (
     <div className="developer-profile">
-      <div className="container developer-profile__container">
+      <div className="developer-profile__container">
         <img
           className="developer-profile__image"
           src={ProfileImage}
