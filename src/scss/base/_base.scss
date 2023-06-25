@@ -75,3 +75,11 @@ p {
   padding: 0.2rem 0.656rem;
   text-transform: uppercase;
 }
+
+.section-header {
+  color: $text-light;
+  font-size: $primary-font-size;
+  font-weight: $primary-font-weight;
+  line-height: 1.05rem;
+  margin-bottom: 0.3rem;
+}
