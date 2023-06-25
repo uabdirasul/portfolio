@@ -1,10 +1,29 @@
 @import "../abstract/_variables.scss";
+@import "../abstract/mixins";
 
 html {
   box-sizing: border-box;
   font-size: 16px;
   height: 100%;
   scroll-behavior: smooth;
+}
+
+@include media-md {
+  html {
+    font-size: 14px;
+  }
+}
+
+@include media-sm {
+  html {
+    font-size: 12px;
+  }
+}
+
+@include media-extra-sm {
+  html {
+    font-size: 10px;
+  }
 }
 
 *,
