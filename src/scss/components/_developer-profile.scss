@@ -1,0 +1,30 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+.developer-profile {
+  .developer-profile__container {
+    @include flexbox;
+    align-items: center;
+    justify-content: center;
+
+    .developer-profile__image {
+      border-radius: 50%;
+      height: 6.25rem;
+      margin-right: 1.5rem;
+      width: 6.25rem;
+    }
+
+    .developer-profile__name {
+      color: $text-light;
+      font-size: 1.375rem;
+      font-weight: $primary-font-weight;
+      line-height: $primary-line-height;
+    }
+
+    .developer-profile__job {
+      color: $primary-color;
+      font-size: $primary-font-size;
+      line-height: $primary-line-height;
+    }
+  }
+}
