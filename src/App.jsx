@@ -4,7 +4,7 @@ import React from "react";
 import "./scss/base/_base.scss";
 
 // Components
-import Header from "Layouts/Header";
+import Header from "layouts/Header";
 
 const App = () => {
   return (
