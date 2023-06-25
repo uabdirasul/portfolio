@@ -2,6 +2,7 @@
 @import "../abstract/mixins";
 
 .developer-profile {
+  @include primary-margin-bottom;
   .developer-profile__container {
     @include flexbox;
     align-items: center;
