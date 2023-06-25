@@ -22,23 +22,3 @@
     line-height: 0.938rem;
   }
 }
-
-@include media-md {
-  .header {
-    .header-logo {
-      .header-logo-img {
-        width: 10rem;
-      }
-    }
-  }
-}
-
-@include media-sm {
-  .header {
-    .header-logo {
-      .header-logo-img {
-        width: 8rem;
-      }
-    }
-  }
-}
