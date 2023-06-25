@@ -5,7 +5,6 @@
   @include primary-margin-bottom;
   .developer-profile__container {
     @include flexbox;
-    align-items: center;
     justify-content: center;
 
     .developer-profile__image {
