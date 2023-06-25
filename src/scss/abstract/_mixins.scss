@@ -23,3 +23,7 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+@mixin primary-margin-bottom {
+  margin-bottom: 2.188rem;
+}
