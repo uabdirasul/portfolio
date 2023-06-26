@@ -1,0 +1,37 @@
+@import "../abstract/mixins";
+@import "../abstract/variables";
+
+.personal-project {
+  @include flexbox;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 2rem;
+
+  .personal-project__img {
+    width: 100%;
+  }
+
+  .personal-project__name {
+    color: $text-light;
+    font-size: $primary-font-size;
+    font-weight: $primary-font-weight;
+    line-height: 1.05rem;
+    margin-right: 0.3rem;
+  }
+
+  .personal-project__description {
+    color: $primary-color;
+    line-height: $primary-line-height;
+    margin: 0.438rem 0;
+  }
+
+  .personal-project__technologies {
+    color: $secondary-color;
+    font-size: $primary-font-size;
+    line-height: $primary-line-height;
+  }
+
+  .link-icon {
+    width: 0.8rem;
+  }
+}
