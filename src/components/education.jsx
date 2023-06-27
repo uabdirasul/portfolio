@@ -16,7 +16,7 @@ const Education = ({
     <div className="course">
       <p className="course__year">{courseYear}</p>
       <div className="course__info">
-        <a className="course__name" href={courseLink}>
+        <a className="course__name" href={courseLink} target="blank">
           {courseName}
         </a>
         <img className="link-icon" src={LinkIcon} alt="Link Icon" />
