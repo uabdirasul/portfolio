@@ -35,3 +35,9 @@
   font-weight: $primary-font-weight;
   line-height: 1.05rem;
 }
+
+@mixin technologies {
+  color: $secondary-color;
+  font-size: $primary-font-size;
+  line-height: $primary-line-height;
+}

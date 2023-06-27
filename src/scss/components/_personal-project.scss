@@ -23,9 +23,7 @@
   }
 
   .personal-project__technologies {
-    color: $secondary-color;
-    font-size: $primary-font-size;
-    line-height: $primary-line-height;
+    @include technologies;
   }
 
   .link-icon {
