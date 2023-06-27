@@ -4,6 +4,7 @@ import React from "react";
 import DeveloperProfile from "components/developer-profile";
 import About from "components/about";
 import ProjectsWrapper from "components/projects-wrapper";
+import EducationWrapper from "components/education-wrapper";
 
 // Style
 import "../scss/layouts/_main.scss";
@@ -14,6 +15,7 @@ const Main = () => {
       <DeveloperProfile />
       <About />
       <ProjectsWrapper />
+      <EducationWrapper />
     </main>
   );
 };

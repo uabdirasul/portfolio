@@ -1,0 +1,23 @@
+@import "../abstract/mixins";
+@import "../abstract/variables";
+
+.course {
+  margin-bottom: 2rem;
+  @include flexbox;
+
+  .course__year {
+    white-space: nowrap;
+    margin-right: 2rem;
+  }
+
+  .course__info {
+  }
+
+  .course__name {
+    @include white-link;
+  }
+
+  .course__technologies {
+    @include technologies;
+  }
+}
