@@ -28,3 +28,10 @@
 @mixin primary-margin-bottom {
   margin-bottom: 2.188rem;
 }
+
+@mixin white-link {
+  color: $text-light;
+  font-size: $primary-font-size;
+  font-weight: $primary-font-weight;
+  line-height: 1.05rem;
+}

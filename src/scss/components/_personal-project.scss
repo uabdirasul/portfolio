@@ -12,10 +12,7 @@
   }
 
   .personal-project__name {
-    color: $text-light;
-    font-size: $primary-font-size;
-    font-weight: $primary-font-weight;
-    line-height: 1.05rem;
+    @include white-link;
     margin-right: 0.3rem;
   }
 
