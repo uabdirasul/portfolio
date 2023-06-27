@@ -15,7 +15,7 @@ const EducationWrapper = () => {
       />
       <Education
         courseYear="2023 May"
-        courseName="Interaktiv React va Redux"
+        courseName="Interactive React va Redux"
         courseLink="https://telegra.ph/Interaktiv-React-va-Redux-07-31"
         courseTechnologies="React • Redux • Redux Thunk • Version Control • Styled Component • Axios"
       />
