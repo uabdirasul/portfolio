@@ -13,7 +13,6 @@
 
   .personal-project__name {
     @include white-link;
-    margin-right: 0.3rem;
   }
 
   .personal-project__description {
@@ -24,9 +23,5 @@
 
   .personal-project__technologies {
     @include technologies;
-  }
-
-  .link-icon {
-    width: 0.8rem;
   }
 }
