@@ -1,0 +1,10 @@
+@import "../abstract/mixins";
+@import "../abstract/variables";
+
+.skills {
+  @include primary-margin-bottom;
+  .skills {
+    @include technologies;
+    text-align: center;
+  }
+}
