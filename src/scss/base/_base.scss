@@ -10,19 +10,19 @@ html {
 
 @include media-md {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
 @include media-sm {
   html {
-    font-size: 13px;
+    font-size: 14.5px;
   }
 }
 
 @include media-extra-sm {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -65,7 +65,7 @@ img {
 
 a {
   text-decoration: none;
-  width: 3rem;
+  min-width: 3rem;
   padding: 0.2em;
 }
 
