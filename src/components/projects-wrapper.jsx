@@ -7,9 +7,9 @@ import PersonalProject from "./personal-project";
 import "../scss/components/_projects-wrapper.scss";
 
 // Images
-import SpotifyAnalog from "../assets/spotify-analog.jpg";
-import GameFinder from "../assets/game-finder.jpg";
-import Replace from "../assets/replace.jpg";
+import SpotifyAnalog from "../assets/spotify-analog.webp";
+import GameFinder from "../assets/game-finder.webp";
+import Replace from "../assets/replace.webp";
 
 const ProjectsWrapper = () => {
   return (

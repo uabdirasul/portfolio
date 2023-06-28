@@ -1,7 +1,7 @@
 import React from "react";
 
 // Image
-import ProfileImage from "../assets/ubbiniyazov.jpg";
+import ProfileImage from "../assets/ubbiniyazov.webp";
 
 // Style
 import "../scss/components/_developer-profile.scss";
