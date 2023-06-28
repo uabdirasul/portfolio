@@ -1,0 +1,26 @@
+@import "../abstract/mixins";
+@import "../abstract/variables";
+
+.networking-platforms {
+  @include flexbox;
+  @include primary-margin-bottom;
+
+  .networking-platforms__names {
+    color: $secondary-color;
+    margin-right: 2rem;
+
+    .networking-platform__name {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .networking-platform__link {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .networking-platform__link a {
+    line-height: $primary-line-height;
+    @include white-link;
+  }
+}
