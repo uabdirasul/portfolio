@@ -2,12 +2,16 @@
 @import "../abstract/variables";
 
 .course {
-  margin-bottom: 2rem;
   @include flexbox;
+  margin-bottom: 2rem;
+  justify-content: space-between;
 
   .course__year {
-    white-space: nowrap;
-    margin-right: 2rem;
+    width: 4rem;
+  }
+
+  .course__info {
+    width: 22rem;
   }
 
   .course__name {
